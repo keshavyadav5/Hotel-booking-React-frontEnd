@@ -1,0 +1,162 @@
+.login-container {
+  text-align: center;
+  width: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/login.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  z-index: 10;
+  border-radius: 3px;
+  position: absolute;
+  margin: 150px 450px;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 5px;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+}
+
+.login-inputs {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 55px auto 30px auto;
+}
+
+.login-input {
+  background-color: aliceblue;
+  margin: auto;
+  align-items: center;
+  border-radius: 2px;
+
+}
+
+.login-icon {
+  margin: 0px 10px;
+}
+
+.login-inp {
+  width: 300px;
+  height: 40px;
+  background: transparent;
+}
+
+.forgot-password {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fdfdfd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forgot-password span {
+  cursor: pointer;
+  color: #6082B6;
+  font-weight: 800;
+  margin-left: 7px;
+}
+
+.login-submit-container {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.login-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  background-color: #6082B6;
+  color: #f1eded;
+  font-size: 16px;
+  padding: 4px 15px;
+  cursor: pointer;
+}
+
+.gray {
+  background-color: #f1eded;
+  color: #6082B6;
+}
+
+
+@media(max-width:700px) {
+  .login-container {
+    width: 450px;
+  }
+}
+
+@media(max-width:600px) {
+  .login-container {
+    padding: 40px;
+    width: 80vw;
+  }
+
+  .login-text {
+    font-size: 35px;
+  }
+
+  .underline {
+    height: 4px;
+  }
+
+  .login-inp {
+    width: 80%;
+    height: 40px;
+  }
+
+  .login-inputs {
+    gap: 20px;
+    margin: 45px auto 2px auto;
+  }
+}
+
+@media(max-width:500px) {
+  .login-submit-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .forgot-password {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:350px) {
+
+  .login-text {
+    font-size: 30px;
+  }
+
+  .login-inp {
+    width: 80%;
+    height: 35px;
+  }
+
+  .login-icon {
+    margin: 0px 5px;
+    width: 12px;
+  }
+}

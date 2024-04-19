@@ -1,0 +1,193 @@
+.weeding {
+  padding: 50px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.weeding-body {
+  display: flex;
+}
+
+.weeding-title {
+  padding-bottom: 20px;
+}
+
+.weeding-table h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.weeding-table {
+  padding: 30px 0px;
+  margin: auto 5px;
+}
+
+.weeding-table table {
+  margin-bottom: 10px;
+  border: 2px solid rgb(239, 248, 238);
+}
+
+.weeding tr td {
+  font-size: 15px;
+}
+
+.weeding tr th {
+  font-size: 22px;
+  font-family: cursive;
+}
+
+.weeding-table tr td,
+th {
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.weeding-table a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(251, 140, 6);
+  transition: all 0.1s;
+}
+
+.weeding-table a:hover {
+  font-size: 14px;
+}
+
+.weeding-title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgb(251, 140, 6);
+  font-weight: 600;
+  line-height: 1px;
+}
+
+.weeding-title h3 {
+  font-size: 25px;
+  color: #313131;
+  font-weight: 600;
+}
+
+/* //------------------------------------------- */
+
+.weeding-card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(196, 118, 34); */
+  background-color: rgb(215, 219, 222);
+  border-radius: 3px;
+  margin-left: 30px;
+  width: fit-content;
+}
+
+.weeding-card-content {
+  text-align: left;
+  margin: auto 30px;
+}
+
+.weeding-card-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.weeding-card-content p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.weeding-btn {
+  border-radius: 1px !important;
+  margin-left: 0px !important;
+  padding: 5px 20px !important;
+}
+
+.weeding-card-photo {
+  display: flex;
+}
+
+.weeding-img1 {
+  background: url('../../assets/weeding1.png');
+  bottom: 30px;
+}
+
+.weeding-img2 {
+  background: url('../../assets/weeding2.png');
+  bottom: 100px;
+}
+
+.img {
+  position: relative;
+  width: 200px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media(max-width:1100px) {
+  .weeding {
+    padding: 50px 5%;
+  }
+}
+
+@media(max-width:1100px) {
+
+  .weeding-img1,
+  .weeding-img2 {
+    bottom: 0px;
+    width: 170px;
+  }
+
+  .weeding-card-content h3 {
+    font-size: 20px;
+  }
+
+  .weeding-card-content p {
+    font-size: 12px;
+  }
+}
+
+@media(max-width:850px) {
+  .weeding-img2 {
+    display: none;
+  }
+}
+
+@media(max-width:670px) {
+  .weeding-body {
+    flex-direction: column;
+  }
+
+  .weeding-table table {
+    margin-bottom: 10px;
+    margin: 10px auto;
+  }
+
+  .weeding-card {
+    margin-left: 0px;
+  }
+
+  .weeding-title {
+    padding-bottom: 0px;
+  }
+
+  .weeding-title h3 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:400px) {
+  .weeding-img1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .weeding-card {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+}

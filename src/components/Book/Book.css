@@ -1,0 +1,114 @@
+.book-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card-container {
+  /* background-color: rgb(231, 229, 229); */
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10%;
+  align-items: center;
+}
+
+.card-container-button {
+  display: flex;
+  align-items: center;
+}
+
+.prev-btn {
+  width: 100px;
+  height: 100px;
+  border: #000;
+  transform: rotate(180deg);
+  background: url('../../assets/next.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.next-btn {
+  width: 100px;
+  height: 100px;
+  border: #000;
+  background: url('../../assets/next.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.card-container h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #313131;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.cards {
+  width: 220px;
+  height: 305px;
+  border: .4px solid #313131;
+  margin: 0px 10px;
+  transition: all 0.5s;
+}
+
+.cards:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 5px 0px #323232;
+}
+
+.cards img {
+  width: 100%;
+  height: 150px;
+}
+
+.cards h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.cards p {
+  font-size: 12px;
+  padding: 0px 5px;
+  font-weight: 400;
+}
+
+.cards .btn {
+  border-radius: 1px !important;
+  width: 100px;
+  margin-left: 24%;
+}
+
+.cards .btn:hover {
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+@media(max-width:720px) {
+
+  .next-btn,
+  .prev-btn {
+    width: 70px;
+    height: 70px;
+  }
+
+  .cards {
+    width: 200px;
+    margin: 0px 5px;
+  }
+}
+
+@media(max-width:667px) {
+  .cards {
+    width: 180px;
+    height: fit-content;
+    margin: 0px 0px;
+  }
+
+  .next-btn,
+  .prev-btn {
+    width: 50px;
+  }
+}

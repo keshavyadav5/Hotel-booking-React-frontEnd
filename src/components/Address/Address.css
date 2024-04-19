@@ -1,0 +1,98 @@
+.address{
+  padding: 50px 0px;
+  text-align: center;
+  justify-content: center;
+}
+.help{
+  background-color: #313131;
+  padding: 50px 0px;
+  color: #f7f0f0;
+}
+.help-content{
+  max-width: 700px;
+  margin: auto;
+}
+.help h3{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(251, 140, 6);
+}
+.help h2{
+  font-size: 30px;
+  font-weight: 700;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.help p{
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 300;
+}
+#email{
+  width: 200px !important;
+}
+#email, #query{
+  outline: none;
+  background: transparent;
+  margin: 20px 10px;
+  border-bottom: 1px solid #7d6e6e;
+  width: 300px;
+  color: rgb(220, 214, 206);
+}
+#textarea{
+  outline: none;
+  border: 0px;
+  background: transparent;
+  border-bottom: 1px solid #7d6e6e;
+  margin: 20px 10px;
+}
+
+.query-btn{
+  padding: 5px 20px !important;
+}
+
+@media(max-width:700px){
+  .help{
+    text-align: center;
+    align-items: center;
+  }
+  .help p span{
+    display: none;
+  }
+  .help form{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  #email, #query{
+    width: 60vw !important;
+  }
+}
+@media(max-width:400px){
+  #email, #query{
+    width: 80vw !important;
+    margin: 15px 10px;
+  }
+  .help h3{
+    font-size: 10px;
+  }
+  .help h2{
+    font-size: 25px;
+  }
+  .help p{
+    font-size: 10px;
+  }
+}
+@media(max-width:300px){
+  .help h3{
+    font-size: 8px;
+  }
+  .help h2{
+    font-size: 20px;
+  }
+  .help p{
+    font-size: 10px;
+  }
+}

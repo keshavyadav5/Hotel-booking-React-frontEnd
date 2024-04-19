@@ -1,0 +1,85 @@
+.about {
+  width: 100%;
+  display: flex;
+  padding: 100px 10%;
+  justify-content: space-between;
+  background-color: rgb(215, 219, 222);
+}
+
+.about-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h3 {
+  font-size: 10px;
+  color: rgb(251, 140, 6);
+  text-transform: uppercase;
+}
+
+.about-content h2 {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 600;
+  gap: 1;
+  padding: 2px 0px;
+}
+
+.about-content p {
+  font-size: 12px;
+}
+
+.signature {
+  background: url('../../assets/keshav.png');
+  width: 150px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.about-img {
+  background: url('../../assets/about.png');
+  width: 40vw;
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about-content h6{
+  font-size: 12px;
+  color: rgb(251, 140, 6);
+  text-transform: capitalize;
+}
+
+@media(max-width:950px) {
+  .about {
+    padding: 100px 5%;
+  }
+}
+
+@media(max-width:750px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 10%;
+  }
+
+  .about-content {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  .about-img {
+    width: 80vw;
+    height: 400px;
+  }
+}
+

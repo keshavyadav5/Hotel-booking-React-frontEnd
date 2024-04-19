@@ -1,0 +1,48 @@
+.payment-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.credit-card-fields,
+.paypal-fields,
+.bank-transfer-fields {
+  display: none;
+}
+
+.credit-card-fields input,
+.paypal-fields input,
+.bank-transfer-fields input {
+  margin-bottom: 10px;
+}
+
+.credit-card-fields.show,
+.paypal-fields.show,
+.bank-transfer-fields.show {
+  display: block;
+}
