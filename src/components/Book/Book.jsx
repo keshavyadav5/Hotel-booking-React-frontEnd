@@ -73,9 +73,9 @@ function Book() {
         if (window.innerWidth < 667) {
             return 1;
         } else if (window.innerWidth < 900) {
-            return 2;
+            return 1;
         } else {
-            return 3;
+            return 1;
         }
     }
 

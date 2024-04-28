@@ -8,7 +8,7 @@ import { IoPerson } from "react-icons/io5";
 function Login() {
   const [action, setAction] = useState("Sign Up")
   return (
-    <div style={{backgroundColor:"#313131",width:"100vw", height:"100vh", alignItems:"center" ,justifyContent:"center", position:"relative"}}>
+    <div className='login-father'>
       <div className='login-container'>
         <div className="login-header">
           <div className="login-text">{action}</div>

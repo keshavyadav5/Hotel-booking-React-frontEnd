@@ -1,7 +1,8 @@
 .back-ground {
   width: 100%;
   min-height: 100vh;
-  background: url('../../assets/background.png');
+  /* background: url('../../assets/background.png'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/bookingPage.png');
   background-size: cover;
   background-position: center;
   color: #fff;

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Book.css';
+import {Link} from "react-router-dom"
 
 function Card(props) {
   return (
@@ -7,7 +8,7 @@ function Card(props) {
       <img src={props.image} alt="book1" />
       <h3>{props.title}</h3>
       <p>{props.about}</p>
-      <div className="btn">Book Now</div>
+      <Link to='/bookingPage' className="btn booking-btn">Book Now</Link>
     </div>
   )
 }

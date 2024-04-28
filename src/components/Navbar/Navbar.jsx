@@ -32,7 +32,7 @@ function Navbar() {
         <li><Link to='about' smooth={true} offset={-80} duration={100}>Features</Link></li>
         <li><Link to='room' smooth={true} offset={-80} duration={100}>Services</Link></li>
         <li><Link to='night' smooth={true} offset={-80} duration={100}>Resources</Link></li>
-        <li><Link to='address' smooth={true} offset={0} duration={100}>Contact</Link></li>
+        <li><Link to='address' smooth={true} offset={-25} duration={100}>Contact</Link></li>
       </ul>
       <Redirect to="/login" className="btn navbar-btn">GET STARTED</Redirect>
       <div className="navbar-login"></div>

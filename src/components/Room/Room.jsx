@@ -10,7 +10,9 @@ function Room() {
       </div>
       <div className="room-context">
         <h3>Winter is here,<br/>the pleasure can come.</h3>
-        <p>Enjoy the wintry area from their most enchanting side with our specials we have comppiled for you. So that nothing stands in the way of an unforgettable winter.</p>
+        <p>Enjoy the wintry area from their most enchanting side wit
+        h our specials we have comppiled for you. So that nothing 
+        stands in the way of an unforgettable winter.</p>
         <button className="btn room-btn">Discover & Book</button>
       </div>
     </div>
