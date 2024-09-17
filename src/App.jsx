@@ -18,8 +18,8 @@ const MainApp = () => {
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/bookingPage' element={<BookingPage/>}/>
+        <Route path='/login' element={<Login />} />
+        <Route path='/bookingPage' element={<BookingPage />} />
       </Routes>
     </Router>
   )

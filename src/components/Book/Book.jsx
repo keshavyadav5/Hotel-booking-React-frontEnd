@@ -93,7 +93,7 @@ function Book() {
         <div className="card-container">
             <h4>Apex room & suites</h4>
             <div className="card-container-button">
-                <div onClick={prevSlide} className='prev-btn'></div>
+                {/* <div onClick={prevSlide} className='prev-btn'></div> */}
                 <div className='book-container'>
                     {visibleSlides.map((d, i) => (
                         <Card
@@ -104,7 +104,7 @@ function Book() {
                         />
                     ))}
                 </div>
-                <div onClick={nextSlide} className="next-btn"></div>
+                {/* <div onClick={nextSlide} className="next-btn"></div> */}
             </div>
         </div>
     );
