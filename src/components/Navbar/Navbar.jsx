@@ -26,7 +26,10 @@ function Navbar() {
 
   return (
     <div className={`navbar ${sticky ? 'dark-nav' : ''}`}>
-      <Link to='back-ground' smooth={true} offset={0} duration={100}><img src="../src/assets/image.png" alt="logo" className="logo" /></Link>
+      <Link to='back-ground' smooth={true} offset={0} duration={100}>
+      {/* <img src="../src/assets/image.png" alt="logo" className="logo" /> */}
+      <h2 className='logo-h2'>APEX</h2>
+      </Link>
 
       <ul className={mobileMenu ? '' : 'hide-menu'}>
         <li><Link to='about' smooth={true} offset={-80} duration={100}>Features</Link></li>

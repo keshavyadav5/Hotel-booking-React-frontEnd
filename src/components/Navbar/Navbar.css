@@ -61,6 +61,12 @@ ul li:active {
   color: rgb(132, 245, 33);
   border-bottom: 0px;
 }
+.logo-h2 {
+  color: rgb(253, 252, 252);
+  font-weight: 800;
+  font-style: oblique;
+  cursor: pointer;
+}
 
 
 .menu-icon {
